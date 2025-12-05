@@ -5,7 +5,7 @@
 }
 .start-panel__icons {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr repeat(5, 50px);
 }
 .start-panel__grid {
     display: grid;
@@ -29,7 +29,6 @@
 .apps__grid {
     display: grid;
     grid-template-columns: repeat(6, 50px);
-    grid-auto-columns: 50px;
     grid-auto-rows: 50px;
     grid-gap: 5px;
 }
